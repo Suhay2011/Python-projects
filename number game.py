@@ -13,4 +13,4 @@ while playing:
         break
 
     else:
-        print("Your guess isnt quite right try again. /n" )
+        print(("Scissors cuts Paper! You Win!")
