@@ -1,15 +1,4 @@
-def add(P, Q):
-    #This function is used for adding 2 numbers
-    return P + Q
-def subtract(P , Q):
-    #This function is used for subtracting 2 numbers
-    return P - Q
-def multiply(P , Q):
-    #This function is used for multiplying 2 numbers
-    return P * Q
-def divide(P , Q):
-    #This function is used for dividing 2 numbers
-    return P / Q
+
 
 #Now we will take the inputs from the user
 print("Please select an operation:")
@@ -34,3 +23,15 @@ elif choice == 'c':
 
 elif choice == 'd':
     print(num_1 ,"/", num_2, "=" , divide(num_1 , num_2))
+def add(P, Q):
+    #This function is used for adding 2 numbers
+    return P + Q
+def subtract(P , Q):
+    #This function is used for subtracting 2 numbers
+    return P - Q
+def multiply(P , Q):
+    #This function is used for multiplying 2 numbers
+    return P * Q
+def divide(P , Q):
+    #This function is used for dividing 2 numbers
+    return P / Q
