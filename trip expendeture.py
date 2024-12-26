@@ -14,5 +14,4 @@ def plane_ride_cost(city):
         return 475
     
 #Define a function called rental_car_cost with an argrument called days
-def rental_car_cost(days)
-    
+def rental_car_cost(days):
