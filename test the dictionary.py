@@ -4,7 +4,7 @@ def mirrorChars(input,k):
     original = 'abcdefghijklmnopqrstuvwxyz'
     reverse = 'zyxwvutsrqponmlkjihgfedcba'
     dictChars = dict(zip(original,reverse))
- 
+ m  
     # separate out string after length k to change
     # characters in mirror
     prefix = input[0:k-1]
