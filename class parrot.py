@@ -1,18 +1,16 @@
 #create class
-class Parrot:
+class Vehicle:
+     
+     #create init method
+  def_init_(self,max_speed,mileage)
 
-    #class atribute
-    species = "bird"
+            #bind the arguments
+self.max_speed = max_speed
+self.mileage = mileage
+  
+#object creation
+modelX = Vehicle(240 , 18)
 
-    #instance atribute
-def__init(self,name,age)
-    self.name = Name
-    slef.age = age
-
-#instantiate the Parrot class
-blu = Parrot("Blu" , 10)
-woo = Parrot("Woo" , 15)
-
-#access the class atributes
-print("Blu is a {}",format(blu.species))
-print("Woo is also a {}",format(woo.species))
+#access the methodn inside init module
+print("Model Max Speed",modelX.max_speed )
+print("Model Mileage",modelX.mileage)
