@@ -21,7 +21,7 @@ class Employee( Person ):
 
 
 #creation on an object variable or an instance
-a = Employee('Rahul', 886012 200000 ,"Intern")
+a = Employee('Rahul', 886012 200000, "Intern")
 
 #calling a function of a class Person using it's instance
 a.display()
