@@ -3,11 +3,11 @@ class India():
     def capital(self):
         print("New Delhi is the capital of India.")
 
-def Language(self):
-    print("Hindi is the most widely spoken language of India.")
+    def Language(self):
+        print("Hindi is the most widely spoken language of India.")
 
-def type(self):
-    print("India is a developing country.")
+    def type(self):
+        print("India is a developing country.")
 
 #Class 2
 class USA():
