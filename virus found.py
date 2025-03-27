@@ -15,13 +15,13 @@ button.place(x=40, y=80)
 def msg2():
     messagebox.showwarning( "Do You Want To Remove The Virus Found?")
 
-button2 = Button2(root, text="Remove  Virus?", command=msg2)
+button2 = Button(root, text="Remove  Virus?", command=msg2)
 button.place(x=60, y=120)
 
 def msg3():
     messagebox.showsolution("Alert", "Remove all Virus Now?" )
 
-button3 = Button3(root, text=" Remove Virus?"
+button3 = Button(root, text="Virus removed"
 , command=msg3)
 button.place(x=60, y=120)
 
