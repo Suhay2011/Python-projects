@@ -10,7 +10,7 @@ root.geometry('650x400')
 
 upload = Image.open("app_img.jpg")
 upload = upload.resize((300, 300))
-image = ImageTk.Photoimage(upload)
+image = ImageTk.PhotoImage(upload)
 label = Label(root, image=image, bg='light blue')
 label.place(x=180, y=20)
 
@@ -51,10 +51,14 @@ def topwin():
     l1= label(top, text="2000", bg="light grey")
     l2= label(top, text="500", bg="light grey")
     l3= label(top, text="100", bg="light grey")
+    l4= label(top, text="50", bg='light grey')
+    l5= label(top, text="10", bg='light grey')
 
     t1 = Entry(top)
     t2 = Entry(top)
     t3 = Entry(top)
+    t4 = Entry(top)
+    t5 = Entry(top)
 
     def calculator():
         try:
